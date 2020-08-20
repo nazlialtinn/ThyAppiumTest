@@ -1,0 +1,26 @@
+Created by TESTINIUM on 20.08.2020
+
+This is a concept file with following syntax for each concept.
+#Passenger Operations
+*Name Degeri Yazilmaktadir
+*"2" Saniye Bekle
+*LastName Degeri Yazilmaktadir
+*"2" Saniye Bekle
+*Id li "com.turkishairlines.mobile:id/form_checkbox_right" elemente tikla
+*"2" Saniye Bekle
+*Id li "com.turkishairlines.mobile:id/frAddNewPassenger_etAddDateOfBirth" elemente tikla
+*"2" Saniye Bekle
+*Xpath li "//android.widget.DatePicker/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.NumberPicker[1]/android.widget.Button[1]" elemente tikla
+*"2" Saniye Bekle
+*Xpath li "//android.widget.DatePicker/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.NumberPicker[2]/android.widget.Button[2]" elemente tikla
+*"2" Saniye Bekle
+*Xpath li "//android.widget.DatePicker/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.NumberPicker[3]/android.widget.Button[1]" elemente tikla
+*"2" Saniye Bekle
+*Id li "com.turkishairlines.mobile:id/datePickerBottom_ivDone" elemente tikla
+*"2" Saniye Bekle
+*Email Degeri Yazilmaktadir
+*"2" Saniye Bekle
+*Flyer Number Degeri Yazilmaktadir
+*"2" Saniye Bekle
+*Id li "com.turkishairlines.mobile:id/dgBookingAirportSelection_ivClose" elemente tikla
+*"5" Saniye Bekle

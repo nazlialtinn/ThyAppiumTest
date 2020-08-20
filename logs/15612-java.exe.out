@@ -1,0 +1,97 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1978milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1978"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 61395"}
+{"logLevel":"info","message":"Listening on port:61395"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.sendKeyName' and 'org.example.StepImplementation.sendKeyName'"}
+{"logLevel":"debug","message":"Found Name Degeri Yazilmaktadir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.sendKeyEmail' and 'org.example.StepImplementation.sendKeyEmail'"}
+{"logLevel":"debug","message":"Found Email Degeri Yazilmaktadir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitElement' and 'org.example.StepImplementation.waitElement'"}
+{"logLevel":"debug","message":"Found {} Saniye Bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElementById' and 'org.example.StepImplementation.clickElementById'"}
+{"logLevel":"debug","message":"Found Id li {} elemente tikla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.sendKeyFlyerNumber' and 'org.example.StepImplementation.sendKeyFlyerNumber'"}
+{"logLevel":"debug","message":"Found Flyer Number Degeri Yazilmaktadir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElementByXpath' and 'org.example.StepImplementation.clickElementByXpath'"}
+{"logLevel":"debug","message":"Found Xpath li {} elemente tikla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.sendKeyFlightFrom' and 'org.example.StepImplementation.sendKeyFlightFrom'"}
+{"logLevel":"debug","message":"Found Flight From Degeri Yazilmaktadir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.sendKeyLastName' and 'org.example.StepImplementation.sendKeyLastName'"}
+{"logLevel":"debug","message":"Found LastName Degeri Yazilmaktadir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.sendKeyById' and 'org.example.StepImplementation.sendKeyById'"}
+{"logLevel":"debug","message":"Found Id li {} elementi bul ve {} degeri yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.sendKeyFlightTo' and 'org.example.StepImplementation.sendKeyFlightTo'"}
+{"logLevel":"debug","message":"Found Flight To Degeri Yazilmaktadir in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tId li {} elemente tikla : public void clickElementById(String element)"}
+{"logLevel":"debug","message":"\tFlight To Degeri Yazilmaktadir : public void sendKeyFlightTo() throws Exception"}
+{"logLevel":"debug","message":"\tLastName Degeri Yazilmaktadir : public void sendKeyLastName() throws Exception"}
+{"logLevel":"debug","message":"\tId li {} elementi bul ve {} degeri yaz : public void sendKeyById(String element, String key)"}
+{"logLevel":"debug","message":"\tFlight From Degeri Yazilmaktadir : public void sendKeyFlightFrom() throws Exception"}
+{"logLevel":"debug","message":"\tEmail Degeri Yazilmaktadir : public void sendKeyEmail() throws Exception"}
+{"logLevel":"debug","message":"\tName Degeri Yazilmaktadir : public void sendKeyName() throws Exception"}
+{"logLevel":"debug","message":"\tXpath li {} elemente tikla : public void clickElementByXpath(String element)"}
+{"logLevel":"debug","message":"\t{} Saniye Bekle : public void waitElement(ınt second) throws InterruptedException"}
+{"logLevel":"debug","message":"\tFlyer Number Degeri Yazilmaktadir : public void sendKeyFlyerNumber() throws Exception"}
+Ağu 20, 2020 1:22:01 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tikla' using 'class org.example.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tikla' using 'class org.example.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tikla' using 'class org.example.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tikla' using 'class org.example.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Flight From Degeri Yazilmaktadir' using 'class org.example.StepImplementation.sendKeyFlightFrom"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tikla' using 'class org.example.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tikla' using 'class org.example.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Flight To Degeri Yazilmaktadir' using 'class org.example.StepImplementation.sendKeyFlightTo"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tikla' using 'class org.example.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tikla' using 'class org.example.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Xpath li {} elemente tikla' using 'class org.example.StepImplementation.clickElementByXpath"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tikla' using 'class org.example.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Xpath li {} elemente tikla' using 'class org.example.StepImplementation.clickElementByXpath"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tikla' using 'class org.example.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tikla' using 'class org.example.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tikla' using 'class org.example.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tikla' using 'class org.example.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tikla' using 'class org.example.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Name Degeri Yazilmaktadir' using 'class org.example.StepImplementation.sendKeyName"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'LastName Degeri Yazilmaktadir' using 'class org.example.StepImplementation.sendKeyLastName"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tikla' using 'class org.example.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tikla' using 'class org.example.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tikla' using 'class org.example.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Email Degeri Yazilmaktadir' using 'class org.example.StepImplementation.sendKeyEmail"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Flyer Number Degeri Yazilmaktadir' using 'class org.example.StepImplementation.sendKeyFlyerNumber"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tikla' using 'class org.example.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}

@@ -1,0 +1,31 @@
+Created by TESTINIUM on 20.08.2020
+
+This is a concept file with following syntax for each concept.
+#Ticket Operations
+*"2" Saniye Bekle
+*Id li "com.turkishairlines.mobile:id/itemAirport_tvBottom" elemente tikla
+*"2" Saniye Bekle
+*Id li "com.turkishairlines.mobile:id/frDashboard_tvToCode" elemente tikla
+*"2" Saniye Bekle
+*Flight To Degeri Yazilmaktadir
+*"2" Saniye Bekle
+*Id li "com.turkishairlines.mobile:id/itemAirport_tvBottom" elemente tikla
+*"2" Saniye Bekle
+*Id li "com.turkishairlines.mobile:id/frDashboard_rlDeparture" elemente tikla
+*"2" Saniye Bekle
+*Xpath li "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout/android.view.ViewGroup/android.view.ViewGroup[6]/android.widget.FrameLayout[2]/android.widget.TextView" elemente tikla
+*"2" Saniye Bekle
+*Id li "com.turkishairlines.mobile:id/frDashboard_btnDone" elemente tikla
+*"2" Saniye Bekle
+*Xpath li "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.FrameLayout[7]/android.widget.TextView" elemente tikla
+*"2" Saniye Bekle
+*Id li "com.turkishairlines.mobile:id/frDashboard_btnSearch" elemente tikla
+*"2" Saniye Bekle
+*Id li "com.turkishairlines.mobile:id/itemFlightSearchParent_clPrice" elemente tikla
+*"2" Saniye Bekle
+*Id li "com.turkishairlines.mobile:id/brandItem" elemente tikla
+*"2" Saniye Bekle
+*Id li "com.turkishairlines.mobile:id/frFlightSearch_btnContinue" elemente tikla
+*"2" Saniye Bekle
+*Id li "com.turkishairlines.mobile:id/frPickPassengerlistitemadd_root" elemente tikla
+*"2" Saniye Bekle

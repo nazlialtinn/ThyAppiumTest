@@ -1,0 +1,14 @@
+Created by TESTINIUM on 18.08.2020
+
+This is a concept file with following syntax for each concept.
+#Home Operations
+*Id li "com.turkishairlines.mobile:id/frPrivacy_btnAccept" elemente tikla
+*"2" Saniye Bekle
+*Id li "com.turkishairlines.mobile:id/acMain_btnBooking" elemente tikla
+*"2" Saniye Bekle
+*Id li "com.turkishairlines.mobile:id/frDashboard_tvOneWay" elemente tikla
+*"2" Saniye Bekle
+*Id li "com.turkishairlines.mobile:id/frDashboard_tvFromCode" elemente tikla
+*"2" Saniye Bekle
+*Flight From Degeri Yazilmaktadir
+

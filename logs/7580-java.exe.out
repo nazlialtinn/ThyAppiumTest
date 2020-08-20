@@ -1,0 +1,67 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 733milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 733"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 58599"}
+{"logLevel":"info","message":"Listening on port:58599"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.sendKeyByXpath' and 'org.example.StepImplementation.sendKeyByXpath'"}
+{"logLevel":"debug","message":"Found Xpath li {} elementi bul ve {} degeri yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.mouseHover' and 'org.example.StepImplementation.mouseHover'"}
+{"logLevel":"debug","message":"Found {} li elementin üzerine gel in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.mouseHoverXpath' and 'org.example.StepImplementation.mouseHoverXpath'"}
+{"logLevel":"debug","message":"Found {} li xpath elementin üzerine gel in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitElement' and 'org.example.StepImplementation.waitElement'"}
+{"logLevel":"debug","message":"Found {} Saniye Bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElementById' and 'org.example.StepImplementation.clickElementById'"}
+{"logLevel":"debug","message":"Found Id li {} elemente tikla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElementByXpath' and 'org.example.StepImplementation.clickElementByXpath'"}
+{"logLevel":"debug","message":"Found Xpath li {} elemente tikla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElementByCssList' and 'org.example.StepImplementation.clickElementByCssList'"}
+{"logLevel":"debug","message":"Found Css li {} list elemente tikla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElementByCss' and 'org.example.StepImplementation.clickElementByCss'"}
+{"logLevel":"debug","message":"Found Css li {} elemente tikla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.sendKeyById' and 'org.example.StepImplementation.sendKeyById'"}
+{"logLevel":"debug","message":"Found Id li {} elementi bul ve {} degeri yaz in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tId li {} elemente tikla : public void clickElementById(String element) throws InterruptedException"}
+{"logLevel":"debug","message":"\tId li {} elementi bul ve {} degeri yaz : public void sendKeyById(String element, String key)"}
+{"logLevel":"debug","message":"\tCss li {} list elemente tikla : public void clickElementByCssList(String key) throws InterruptedException"}
+{"logLevel":"debug","message":"\tXpath li {} elementi bul ve {} degeri yaz : public void sendKeyByXpath(String element, String key)"}
+{"logLevel":"debug","message":"\t{} li elementin üzerine gel : public void mouseHover(String key)"}
+{"logLevel":"debug","message":"\tCss li {} elemente tikla : public void clickElementByCss(String element) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} li xpath elementin üzerine gel : public void mouseHoverXpath(String key)"}
+{"logLevel":"debug","message":"\tXpath li {} elemente tikla : public void clickElementByXpath(String key) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} Saniye Bekle : public void waitElement(ınt second) throws InterruptedException"}
+Ağu 16, 2020 1:23:54 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 37021
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Ağu 16, 2020 1:23:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} li elementin üzerine gel' using 'class org.example.StepImplementation.mouseHover"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Css li {} elemente tikla' using 'class org.example.StepImplementation.clickElementByCss"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elementi bul ve {} degeri yaz' using 'class org.example.StepImplementation.sendKeyById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elementi bul ve {} degeri yaz' using 'class org.example.StepImplementation.sendKeyById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tikla' using 'class org.example.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Css li {} elemente tikla' using 'class org.example.StepImplementation.clickElementByCss"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Css li {} elemente tikla' using 'class org.example.StepImplementation.clickElementByCss"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing '{} li xpath elementin üzerine gel' using 'class org.example.StepImplementation.mouseHoverXpath"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Xpath li {} elemente tikla' using 'class org.example.StepImplementation.clickElementByXpath"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class org.example.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Css li {} elemente tikla' using 'class org.example.StepImplementation.clickElementByCss"}
